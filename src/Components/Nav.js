@@ -4,7 +4,7 @@ function Nav() {
     return (
         <div>
         <>
-        <Navbar bg="primary" variant="dark">
+        <Navbar className="navv" variant="dark">
           <Navbar.Brand href="/">
         
             <img
@@ -16,6 +16,7 @@ function Nav() {
             />{' '}
          
             
+
            Banking Managment System 
           </Navbar.Brand>
         </Navbar>

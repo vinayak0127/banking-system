@@ -1,16 +1,16 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import './../Styles/footer.css'
 
 const FooterPage = () => {
   return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4 justify-content-center">
+    <MDBFooter  className="foot font-small pt-4 mt-4 justify-content-center">
       <MDBContainer fluid className="text-center text-md-left">
         <MDBRow>
           <MDBCol md="6">
-            <h5 className="title">Footer Content</h5>
+            <h5 className="title">Bank Managment system </h5>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content.
+              this project is build under my internship in sparks foundation.
             </p>
           </MDBCol>
           {/*
@@ -36,7 +36,7 @@ const FooterPage = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href=""> Sparks foundation </a>
         </MDBContainer>
       </div>
     </MDBFooter>

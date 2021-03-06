@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
       <Switch>
-        <Route  path ='/home'>
+        <Route  path ='/'>
           <NavbarPage/>
           <Home/>
           <FooterPage/> 
@@ -22,10 +22,11 @@ function App() {
           <CustomerInfo/>
           <FooterPage/> 
         </Route>
+        {/*
         <Route  path ='/'>
           <Nav/>
           <FooterPage/> 
-        </Route>
+        </Route>*/}
         </Switch>
       </div>
     </Router>
