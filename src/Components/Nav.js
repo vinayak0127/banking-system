@@ -5,16 +5,16 @@ function Nav() {
         <div>
         <>
         <Navbar bg="primary" variant="dark">
-          <Navbar.Brand href="#home">
-          {/*
+          <Navbar.Brand href="/">
+        
             <img
               alt=""
-              src=""
-              width="30"
-              height="30"
+              src="src\icon.png"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
             />{' '}
-         */}
+         
             
            Banking Managment System 
           </Navbar.Brand>
