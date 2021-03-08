@@ -5,7 +5,7 @@ function Home() {
     return (
         <Router>
             <div className="container">
-                <h1>Homepage</h1>
+                <h1>About</h1>
                 {/*<img
                 alt=""
                 src="image1"

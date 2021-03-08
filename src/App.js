@@ -7,6 +7,8 @@ import NavbarPage from './Components/NavBarPage';
 import FooterPage from './Components/FooterPage';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
+import Hero from './Components/Hero'
+
 function App() {
   return (
     <Router>
@@ -14,6 +16,7 @@ function App() {
       <Switch>
         <Route  path ='/'>
           <NavbarPage/>
+          <Hero/>
           <Home/>
           <FooterPage/> 
         </Route>

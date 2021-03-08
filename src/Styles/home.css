@@ -1,6 +1,15 @@
+
 .img {
     height: 300px;
     width: 300px;
+}
+.img:hover {
+  width: 335px;
+  transition: width 1s, height 2s;
+}
+.container{
+  padding-top: 5%;
+  padding-bottom: 20%;
 }
 .para1 {
   float: auto;

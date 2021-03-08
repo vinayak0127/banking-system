@@ -1,5 +1,7 @@
 .navv{
     background: #F50057;
+    
+    z-index: 999;
 }
 .logo {
     width: 150px !important;

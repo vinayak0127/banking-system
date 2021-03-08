@@ -41,9 +41,10 @@ render() {
             <MDBNavItem active>
               <MDBNavLink to="/home">Home</MDBNavLink>
             </MDBNavItem>
+            {/*
             <MDBNavItem>
               <MDBNavLink to="/customerinfo">Customer info </MDBNavLink>
-            </MDBNavItem>
+            </MDBNavItem>*/}
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
