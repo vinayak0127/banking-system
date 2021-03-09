@@ -8,8 +8,6 @@ import FooterPage from './Components/FooterPage';
 import Home from './Components/Home';
 import Nav from './Components/Nav';
 import Hero from './Components/Hero'
-import { response } from 'express';
-
 
 
 function App() {
