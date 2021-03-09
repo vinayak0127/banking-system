@@ -1,7 +1,7 @@
 .heroImage {
    
     background-color:#242B2E !important;
-
+	background: url("");
 	height: 650px;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -30,9 +30,9 @@
     border-radius: 10px;
   }
   .bookButton:hover{
-    background:;
- 
-    width: 85px;
-    height: 49px;
+    background:#FF6666;
+    color: black;
+    width: 90px;
+    height: 45px;
     transition: width .1s, height 0s;
   }
