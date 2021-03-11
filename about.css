@@ -1,0 +1,125 @@
+.heading-quote{
+    margin: 90px 50%;
+    text-align: center;
+    justify-content: center;
+    font-family: Hack, monospace;
+}
+body{
+    background-color:#242B2E !important;
+}
+.quote{
+    font-size: 40px;
+    color: #fff;
+    font-family: Hack, monospace;
+}
+
+.quote span{
+    color: #D291BC;
+}
+
+.coding-image{
+    height: 300px;
+}
+
+.heading-feature{
+    display: inline-block;
+    align-items: center;
+}
+
+.heading-paragraph{
+    font-size: 2rem;
+    font-weight: 0;
+    color: #fff;
+    word-spacing: 0.3rem;
+    font-family: Hack, monospace;
+}
+hr {
+    color: white;
+}
+.home-bottom{
+    margin-bottom: 5rem;
+}
+p {
+    margin: 16px;
+    font-size: 96px;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    position: relative;
+  }
+  p::before {
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+    color: #F50057;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+  p:hover::before {
+    width: 100%;
+  }
+  
+  nav {
+    margin-left: 28%;
+    background: #f9f9f9;
+    padding: 16px;
+  }
+  nav .menuItems {
+    list-style: none;
+    display: flex;
+  }
+  nav .menuItems li {
+    margin: 50px;
+  }
+  nav .menuItems li a {
+    text-decoration: none;
+    color: #8f8f8f;
+    font-size: 24px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+  }
+  nav .menuItems li a::before {
+    content: attr(data-item);
+    transition: 0.5s;
+    color: #F50057;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+  }
+  nav .menuItems li a:hover::before {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+  }
+  * {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background-color: #ecf0f1;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
