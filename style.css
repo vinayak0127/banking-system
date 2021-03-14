@@ -121,3 +121,23 @@ footer a {
 footer a:hover {
   border-bottom: 1px transparent;
 }
+  
+@media only screen and (max-width:500px) ,
+only screen and (max-width: 320px){
+  .Donate{
+      font-size: 40px;
+  }
+  .list{
+    margin: 0 !important;
+  }
+}
+  
+/* for ipad */
+@media all and (device-width: 768px) {
+       
+ 
+}
+/* for ipad pro */
+@media all and (device-width: 1024px){
+
+}
